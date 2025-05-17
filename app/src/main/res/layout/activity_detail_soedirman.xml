@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/kembaliButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenderal Soedirman"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/jendral_soedirman"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenderal Soedirman adalah seorang perwira tinggi Indonesia pada masa Revolusi Nasional. Ia merupakan Panglima Besar Tentara Nasional Indonesia pertama, dan dikenal karena kepemimpinannya yang gigih dalam perang gerilya melawan Belanda."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soedirman lahir pada tanggal 24 Januari 1916 di Desa Bodas Karangjati, Rembang, Purbalingga.  Ia dididik di sekolah Muhammadiyah dan menjadi seorang guru sebelum memasuki dinas militer.  Selama pendudukan Jepang, ia bergabung dengan Pembela Tanah Air (PETA) dan kemudian menjadi komandan batalyon."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setelah kemerdekaan Indonesia, Soedirman dengan cepat naik pangkat menjadi Panglima Besar TNI.  Ia memainkan peran penting dalam memimpin perlawanan terhadap upaya Belanda untuk merebut kembali Indonesia.  Meskipun dalam kondisi kesehatan yang buruk akibat tuberkulosis, ia memimpin pasukan gerilya selama Agresi Militer Belanda II."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perjuangan gerilya Soedirman dan pasukannya menjadi simbol perlawanan Indonesia dan membantu memaksa Belanda untuk bernegosiasi.  Ia dianggap sebagai salah satu pahlawan nasional terbesar Indonesia dan dihormati karena keberanian, keteguhan, dan pengabdiannya kepada negara."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soedirman meninggal pada tanggal 29 Januari 1950, tak lama setelah Indonesia mencapai kemerdekaan penuh. Ia dimakamkan di Taman Makam Pahlawan Kalibata, Jakarta."
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/kembaliButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pattimura"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/patimura"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pattimura, yang memiliki nama asli Thomas Matulessy, adalah seorang pahlawan nasional Indonesia yang memimpin perlawanan bersenjata melawan pemerintahan kolonial Belanda di Maluku."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pattimura lahir pada tanggal 8 Juni 1783 di Saparua, Maluku. Ia adalah mantan sersan militer yang memiliki pengalaman dan pemahaman tentang taktik pertempuran. Ketidakpuasan rakyat Maluku terhadap kebijakan Belanda yang menindas, seperti monopoli perdagangan rempah-rempah dan pajak yang tinggi, memicu perlawanan."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pada tahun 1817, Pattimura memimpin pemberontakan yang berhasil merebut Benteng Duurstede di Saparua. Perlawanan ini menyebar ke pulau-pulau lain di Maluku dan menimbulkan kesulitan bagi Belanda. Pattimura menjadi simbol keberanian dan perlawanan terhadap penjajahan."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belanda mengerahkan kekuatan yang lebih besar untuk memadamkan pemberontakan tersebut. Setelah pertempuran sengit, Pattimura dan para pemimpin perlawanan lainnya berhasil ditangkap. Pattimura dihukum mati pada tanggal 16 Desember 1817 di Ambon."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meskipun perjuangannya berakhir dengan kekalahan, keberanian dan pengorbanan Pattimura menginspirasi generasi selanjutnya dan menjadikannya salah satu pahlawan nasional Indonesia. Ia dihormati karena keteguhan dan semangatnya dalam melawan penindasan."
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

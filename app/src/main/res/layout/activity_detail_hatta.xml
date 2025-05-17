@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/kembaliButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:backgroundTint="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohammad Hatta"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/moh_hatta"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohammad Hatta, yang dikenal sebagai Bung Hatta, adalah seorang negarawan, ekonom, dan Wakil Presiden pertama Indonesia. Ia memainkan peran sentral dalam perjuangan kemerdekaan Indonesia dan dikenal karena kontribusinya pada pemikiran ekonomi dan sosial negara."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hatta lahir pada tanggal 12 Agustus 1902 di Bukittinggi, Sumatera Barat. Ia menempuh pendidikan di sekolah Belanda dan kemudian melanjutkan studi di Belanda. Selama di Belanda, ia aktif dalam gerakan nasionalis Indonesia."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hatta bersama dengan Soekarno memproklamasikan kemerdekaan Indonesia pada tanggal 17 Agustus 1945. Ia menjabat sebagai Wakil Presiden pertama Indonesia dari tahun 1945 hingga 1956. Hatta dikenal karena komitmennya pada demokrasi, keadilan sosial, dan kedaulatan ekonomi."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salah satu kontribusi terbesarnya adalah pemikirannya tentang koperasi. Ia percaya bahwa koperasi dapat menjadi alat untuk membangun ekonomi yang adil dan makmur bagi rakyat Indonesia. Ia sering disebut sebagai Bapak Koperasi Indonesia."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hatta mengundurkan diri dari jabatan Wakil Presiden pada tahun 1956 karena perbedaan pendapat dengan Presiden Soekarno. Ia terus aktif menulis dan memberikan kuliah tentang ekonomi dan politik hingga akhir hayatnya. Hatta meninggal pada tanggal 14 Maret 1980 dan dimakamkan di Taman Makam Pahlawan Kalibata, Jakarta."
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
