@@ -1,4 +1,4 @@
-# Pahlantara - Mengenal Pahlawan Nusantara
+# Pahlantara - Mengenal Pahlawan Nusantara - UTS Pemrograman Mobile ITBS-Abdul Hilman Thiusana
 
 Pahlantara adalah aplikasi mobile sederhana berbasis Android yang bertujuan untuk memperkenalkan para pahlawan nasional Indonesia kepada pengguna. Aplikasi ini menyajikan informasi singkat dan detail mengenai beberapa tokoh penting dalam sejarah perjuangan kemerdekaan Indonesia.
 
