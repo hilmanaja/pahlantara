@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">uts</string>
+    <string name="kembali">Kembali</string>
+    <string name="pahlawan">Pahlawan</string>
+    <string name="masuk_lebih_mengenal">Masuk untuk lebih mengenal</string>
+    <string name="daftar">Daftar</string>
+    <string name="tampilkan_detail">Tampilkan lebih detail</string>
+    <string name="deskripsi_soedirman">Raden Soedirman lahir pada 24 Januari 1916 di Purbalingga, Provinsi Jawa Tengah.</string>
+    <string name="deskripsi_hatta">Nama lengkap Mohammad Hatta adalah Dr. (H.C.) Drs. H. Mohammad Hatta, namun ia lebih dikenal dengan panggilan Bung Hatta. Nama lahirnya adalah Mohammad Athar.</string>
+    <string name="deskripsi_pattimura">Pattimura lahir dengan nama Thomas Matulessy pada 8 Juni 1783 di Saparua, Maluku; nama Pattimura adalah nama samarannya.</string>
+    <string name="foto_jenderal_soedirman">Foto Jenderal Soedirman</string>
+    <string name="foto_mohammad_hatta">Foto Mohammad Hatta</string>
+    <string name="foto_pattimura">Foto Pattimura</string>
 </resources>

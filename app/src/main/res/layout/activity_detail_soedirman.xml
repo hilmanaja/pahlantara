@@ -13,9 +13,9 @@
             android:id="@+id/kembaliButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kembali"
-            android:backgroundTint="@android:color/black"
-            android:textColor="@android:color/white"
+            android:text="@string/kembali"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
             android:layout_marginBottom="16dp"/>
 
         <TextView

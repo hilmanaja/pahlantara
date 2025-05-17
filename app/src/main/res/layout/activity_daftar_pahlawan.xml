@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Daftar"
+            android:text="@string/daftar"
             android:textSize="28sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pahlawan"
+            android:text="@string/pahlawan"
             android:textSize="28sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal" />
@@ -40,7 +40,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:src="@drawable/jendral_soedirman"
-                android:contentDescription="Foto Jenderal Soedirman" />
+                android:contentDescription="@string/foto_jenderal_soedirman" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -53,16 +53,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Raden Soedirman lahir pada 24 Januari 1916 di Purbalingga, Provinsi Jawa Tengah."
+                    android:text="@string/deskripsi_soedirman"
                     android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/detailSoedirmanButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tampilkan lebih detail"
-                    android:backgroundTint="#3F51B5"
-                    android:textColor="@android:color/white"
+                    android:text="@string/tampilkan_detail"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
                     android:textSize="12sp"
                     android:layout_marginTop="8dp" />
 
@@ -81,7 +81,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:src="@drawable/moh_hatta"
-                android:contentDescription="Foto Mohammad Hatta" />
+                android:contentDescription="@string/foto_mohammad_hatta" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -94,16 +94,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nama lengkap Mohammad Hatta adalah Dr. (H.C.) Drs. H. Mohammad Hatta, namun ia lebih dikenal dengan panggilan Bung Hatta. Nama lahirnya adalah Mohammad Athar."
+                    android:text="@string/deskripsi_hatta"
                     android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/detailHattaButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tampilkan lebih detail"
-                    android:backgroundTint="#3F51B5"
-                    android:textColor="@android:color/white"
+                    android:text="@string/tampilkan_detail"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
                     android:textSize="12sp"
                     android:layout_marginTop="8dp" />
 
@@ -122,7 +122,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:src="@drawable/patimura"
-                android:contentDescription="Foto Pattimura" />
+                android:contentDescription="@string/foto_pattimura" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -135,16 +135,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pattimura lahir dengan nama Thomas Matulessy pada 8 Juni 1783 di Saparua, Maluku; nama Pattimura adalah nama samarannya."
+                    android:text="@string/deskripsi_pattimura"
                     android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/detailPattimuraButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tampilkan lebih detail"
-                    android:backgroundTint="#3F51B5"
-                    android:textColor="@android:color/white"
+                    android:text="@string/tampilkan_detail"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
                     android:textSize="12sp"
                     android:layout_marginTop="8dp" />
 
@@ -156,9 +156,9 @@
             android:id="@+id/kembaliButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kembali"
-            android:backgroundTint="@android:color/black"
-            android:textColor="@android:color/white"
+            android:text="@string/kembali"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
             android:layout_marginTop="32dp" />
 
     </LinearLayout>
